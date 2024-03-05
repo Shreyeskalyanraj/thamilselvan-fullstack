@@ -1,0 +1,46 @@
+.job-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .job-details-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .job-details-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-details-left .job-image {
+    width: 220px;
+    height: auto;
+    border: 0.5px solid #000000; 
+  }
+  
+  
+  .apply-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .apply-button {
+    background-color: #c374cc;
+    color: #000000;
+    border: none;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #ffffff; 
+  }
+
+
+
